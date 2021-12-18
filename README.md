@@ -1,1 +1,1 @@
-# UriOnlineJudge-Beecrowd
+# UriOnlineJudge/Beecrowd
