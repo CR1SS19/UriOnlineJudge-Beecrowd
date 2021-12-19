@@ -2,6 +2,6 @@
 
 $n = readline() * 2;
 
-echo "$n minutos";
+echo "$n minutos\n";
 
 ?>
