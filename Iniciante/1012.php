@@ -1,9 +1,9 @@
 <?php
 
 $l1 = explode(" ", readline());
-$a = floatval($l1[0]);
-$b = floatval($l1[1]);
-$c = floatval($l1[2]);
+$a = $l1[0];
+$b = $l1[1];
+$c = $l1[2];
 
 $tri = number_format($a*$c/2, 3, '.', '');
 $cir = number_format(3.14159*$c**2, 3, '.', '');
