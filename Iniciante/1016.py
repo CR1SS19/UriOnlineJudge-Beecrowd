@@ -1,5 +1,5 @@
-D = input()
+D = int(input())
 
-T = int(D) * 2
+T = D * 2
 
-print(str(T) + ' minutos')
+print(f'{T} minutos')

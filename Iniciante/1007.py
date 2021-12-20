@@ -1,7 +1,8 @@
-A = input()
-B = input()
-C = input()
-D = input()
-dif = (int(A) * int(B)) - (int(C) * int(D))
+A = int(input())
+B = int(input())
+C = int(input())
+D = int(input())
 
-print('DIFERENCA = ' + str(dif))
+dif = (A * B) - (C * D)
+
+print(f'DIFERENCA = {dif}')

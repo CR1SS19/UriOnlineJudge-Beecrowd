@@ -1,6 +1,6 @@
-H = input()
-KM = input()
+H = int(input())
+KM = int(input())
 
-L = (int(H) * int(KM)) / 12
+L = (H * KM) / 12
 
-print('{:.3f}'.format(L))
+print(f'{L:.3f}')

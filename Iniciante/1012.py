@@ -6,4 +6,4 @@ tra = ((float(A) + float(B)) * float(C)) / 2
 qua = float(B)**2
 ret = float(A) * float(B)
 
-print('TRIANGULO: {:.3f}'.format(tri) + '\nCIRCULO: {:.3f}'.format(cir) + '\nTRAPEZIO: {:.3f}'.format(tra) + '\nQUADRADO: {:.3f}'.format(qua) + '\nRETANGULO: {:.3f}'.format(ret))
+print(f'TRIANGULO: {tri:.3f}\nCIRCULO: {cir:.3f}\nTRAPEZIO: {tra:.3f}\nQUADRADO: {qua:.3f}\nRETANGULO: {ret:.3f}')

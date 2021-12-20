@@ -1,6 +1,6 @@
-X = input()
-Y = input()
+X = int(input())
+Y = float(input())
 
-media = int(X) / float(Y)
+media = X / Y
 
-print('{:.3f} km/l'.format(media))
+print(f'{media:.3f} km/l')

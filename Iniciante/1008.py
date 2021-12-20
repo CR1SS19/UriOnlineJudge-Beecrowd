@@ -1,7 +1,6 @@
-num = input()
-hrt = input()
-vlr = input()
-salary = int(hrt) * float(vlr)
+n = input()
+h = int(input())
+v = float(input())
+salary = h * v
 
-print('NUMBER = ' + str(num))
-print('SALARY = U$ {:.2f}'.format(salary))
+print(f'NUMBER = {n}\nSALARY = U$ {salary:.2f}')

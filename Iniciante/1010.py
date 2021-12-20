@@ -6,4 +6,4 @@ valor2 = int(E) * float(F)
 
 total = float(valor1) + float(valor2)
 
-print('VALOR A PAGAR: R$ {:.2f}'.format(total))
+print(f'VALOR A PAGAR: R$ {total:.2f}')
