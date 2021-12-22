@@ -11,5 +11,4 @@ if(delta<0 or A==0):
 else:
     x1 = (-B + delta**0.5) / (2 * A)
     x2 = (-B - delta**0.5) / (2 * A)
-    print(f'R1 = {x1:.5f}')
-    print(f'R2 = {x2:.5f}')
+    print(f'R1 = {x1:.5f}\nR2 = {x2:.5f}')
